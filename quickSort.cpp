@@ -25,7 +25,6 @@ int partition(int arr[], int left, int right)
     //swap pivot element with the greater one at i
     swap_(&arr[i + 1], &arr[right]);
     return i+1;
-
 }
 void quickSort(int arr[], int left, int right)
 {
